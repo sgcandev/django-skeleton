@@ -11,6 +11,8 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "RMO.settings")
+from config.settings.base import get_environment
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", get_environment())
 
 application = get_wsgi_application()
