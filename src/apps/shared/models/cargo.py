@@ -1,7 +1,9 @@
 from django.db import models
 
+from src.apps.core.models import CoreModel
 
-class Cargo(models.Model):
+
+class Cargo(CoreModel):
     description = models.CharField(max_length=100)
 
     def __str__(self):
