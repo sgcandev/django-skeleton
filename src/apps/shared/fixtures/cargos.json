@@ -1,0 +1,30 @@
+[
+  {
+    "model": "shared.Cargo",
+    "pk": 1,
+    "fields": {
+      "description": "Administrador del Sistema"
+    }
+  },
+  {
+    "model": "shared.Cargo",
+    "pk": 2,
+    "fields": {
+      "description": "Director de Comité"
+    }
+  },
+  {
+    "model": "shared.Cargo",
+    "pk": 3,
+    "fields": {
+      "description": "Usuario Regular Interno"
+    }
+  },
+  {
+    "model": "shared.Cargo",
+    "pk": 4,
+    "fields": {
+      "description": "Usuario Externo"
+    }
+  }
+]

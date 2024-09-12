@@ -57,7 +57,7 @@ THIRD_PARTY_APPS = [
     "rest_framework",
 ]
 
-LOCAL_APPS = ["src.apps.users"]
+LOCAL_APPS = ["src.apps.users", "src.apps.shared"]
 
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
